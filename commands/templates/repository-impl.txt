@@ -1,0 +1,3 @@
+import {{entityName}}Repository from '#repositories/{{entityNameLowerCase}}_repository/{{entityNameLowerCase}}_repository'
+export default class {{serviceName}}RepositoryLucidImpl implements {{serviceName}}Repository {
+}

@@ -1,0 +1,7 @@
+import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
+
+export default class {{entityName}}Controller extends BaseController{
+  constructor(private readonly {{entityName}}Service = make{{entityName}}Service()) {
+    super()
+  }
+}

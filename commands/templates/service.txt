@@ -1,0 +1,7 @@
+import BaseService from './base_service.js'
+
+export default class {{serviceName}}Service extends BaseService {
+    constructor(){
+        super()
+    }
+}

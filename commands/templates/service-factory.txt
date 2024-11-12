@@ -1,0 +1,5 @@
+
+import {{entityName}}Service from '#services/{{entityNameLowerCase}}_service'
+export const make{{entityName}}Service = () => {
+  return new {{entityName}}Service()
+}
